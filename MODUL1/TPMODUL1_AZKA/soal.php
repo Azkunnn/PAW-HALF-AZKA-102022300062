@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // silakan taruh kode kalian di bawah
 
     if (empty($_POST["nama"])) {
-        $namaErr = "Nama wajib diisi";
+        $namaErr = "Nama wajib ";
     } else {
         $nama = htmlspecialchars($_POST["nama"]);
     }
