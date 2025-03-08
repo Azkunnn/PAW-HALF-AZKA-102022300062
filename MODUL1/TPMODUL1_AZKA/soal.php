@@ -72,20 +72,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          <!-- Tambahkan kolom input untuk Nama, Email, dan NIM dengan mengambil class form-group sebagai referensi -->
 
             <div class="form-group">
+                <!-- tambahkan label nama -->
                 <label for="nama">Nama:</label>
                 <input type="text" id="nama" name="nama" value="<?php echo $nama; ?>">
+                 <!-- Tampilkan pesan error jika variabel $namaErr tidak kosong -->
                 <span class="error"> <?php echo $namaErr; ?></span>
             </div>
 
             <div class="form-group">
+                  <!-- tambahkan label email -->
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email" value="<?php echo $email; ?>">
+                  <!-- Tampilkan pesan error jika variabel $emailErr tidak kosong -->
                 <span class="error"> <?php echo $emailErr; ?></span>
             </div>
 
             <div class="form-group">
+                <!-- tambahkan label nim -->
                 <label for="nim">NIM:</label>
                 <input type="text" id="nim" name="nim" value="<?php echo $nim; ?>">
+                <!-- Tampilkan pesan error jika variabel $nimErr tidak kosong -->
                 <span class="error"> <?php echo $nimErr; ?></span>
             </div>
 
