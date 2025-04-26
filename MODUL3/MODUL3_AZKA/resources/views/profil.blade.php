@@ -18,7 +18,7 @@
             <!-- Buat file tampilan yang akan menampilkan data mahasiswa dalam bentuk tabel. -->
             <!-- Gunakan tag <tr>, <th> dan <td> untuk baris dan kolom. -->
             <tr>
-                <th>nama</th>
+                <th>Nama</th>
                 <td>{{ $mahasiswa->nama }}</td>
             </tr>
             <tr>
@@ -30,11 +30,11 @@
                 <td>{{ $mahasiswa->prodi }}</td>
             </tr>
             <tr>
-                <th>email</th>
+                <th>Email</th>
                 <td>{{ $mahasiswa->email }}</td>
             </tr>
             <tr>
-                <th>fakultas</th>
+                <th>Fakultas</th>
                 <td>{{ $mahasiswa->fakultas }}</td>
             </tr>
         </table>
